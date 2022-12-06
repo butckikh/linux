@@ -1,0 +1,203 @@
+155  mkdir p1
+  156  ll
+  157  cd p1
+  158  /etc/ssh/sshd_config
+  159  ..
+  160  ls
+  161  ../
+  162  /etc/ssh/sshd_config
+  163  sudo nano /etc/ssh/sshd_config
+  164  systemctl restart sshd
+  165  systemctl reload sshd
+  166  cat > f1
+  167  clear
+  168  echo > file1
+  169  ll
+  170  rm*
+  171  rm *
+  172  mkdir pop1
+  173  cd pop1
+  174  echo > file1
+  175  cat /etc/* 2>errors
+  176  history
+  177  ls -l | cut -b -10 | sort | uniq
+  178  ls -l | cut -f 1 -d ' ' | sort -u
+  179  ls -l | awk '{print $1}' | sort | uniq
+  180  mc
+  181  tree -L 1 -d /
+  182  df
+  183  df -h1
+  184  df -hi
+  185  ls -li
+  186  echo hi all > original_file
+  187  ln original_file hardlink
+  188  ll
+  189  ln -s original_file softlink
+  190  ll
+  191  chmod go-rw header.txt
+  192  chmod o+w header.txt
+  193  touch header.txt
+  194  ll
+  195  chmod o+w header.txt
+  196  ll
+  197  chmod go-rw header.txt
+  198  chmod 777 -R ~/lesson3
+  199  touch lesson3
+  200  ll
+  201  chmod 777 -R ~/lesson3
+  202  chmod u+s filename
+  203  sudo chmod u+s filename
+  204  chmod 777 -R ~/pop1
+  205  sudo chown user1 header.txt
+  206  sudo chown user header.txt
+  207  sudo chown butckikh header.txt
+  208  sudo chown butckikh1 header.txt
+  209  sudo adduser1
+  210  sudo add user1
+  211  sudo adduser user1
+  212  sudo chown user1 header.txt
+  213  ll
+  214  ls
+  215  chmod +t filename
+  216  touch filename
+  217  ll
+  218  chmod +t filename
+  219  chmod u+s filename
+  220  ls
+  221  chmod u-s filename
+  222  ls
+  223  chmod g+s filename
+  224  ls
+  225  chmod g-s filename
+  226  ls
+  227  sudo chown user2 f1
+  228  sudo adduser user2
+  229  sudo chown user2 f1
+  230  sudo chown user2 pop1
+  231  ll
+  232  touch f1
+  233  sudo chown user2 f1
+  234  ls
+  235  sudo chown :dev_team f1
+  236  sudo chown butckikh:butckikh -R
+  237  sudo chown butckikh:butckikh -R .
+  238  ls
+  239  ll
+  240  history
+  241  rm *
+  242  clear
+  243  ll
+  244  cd
+  245  ll
+  246  rm *
+  247  ll
+  248  pwd
+  249  ll
+  250  clear
+  251  cd lesson3
+  252  ll
+  253  cd lesson
+  254  ls -l && echo OK
+  255  ls -ldsgdgsdf && echo OK
+  256  ls -l dsgdgsdf && echo OK
+  257  clear
+  258  ls -l ; echo NoMatter
+  259  echo 'some content...' > file1
+  260  ll
+  261  cp file1 file2
+  262  ll
+  263  ln -s file1 file2
+  264  ln -s file3 file1
+  265  ln -s file1 file3
+  266  ln file1 file4
+  267  ls -li
+  268  rm file1
+  269  ls -li
+  270  cat file4
+  271  cat file3
+  272  mv file1 file11
+  273  mv file2 file22
+  274  ls -li
+  275  echo 'some content...' > file1
+  276  mv file1 file11
+  277  ls -li
+  278  ln -s file1 file3
+  279  ln -s file11_symlink
+  280  ln -s $(pwd)/file22 file22_symlink
+  281  ln li
+  282  ls -li
+  283  mkdir links
+  284  mv *_symlink links/
+  285  ls li
+  286  ls -li
+  287  echo "first file" > file2
+  288  echo "first file" > file1
+  289  echo "second file" > file2
+  290  ls -li
+  291  chmod 664 file1
+  292  chmod u=rw,g-rw,o-r file2
+  293  ls -li
+  294  sudo useradd -m -s /bin/bash devuser1
+  295  sudo useradd -m -s /bin/bash devuser2
+  296  sudo groupadd developers
+  297  sudo usermod -aG developers devuser1
+  298  sudo usermod -aG developers devuser2
+  299  mkdir devs_dir
+  300  ll
+  301  sido chown -R :developers.
+  302  sudo chown -R :developers.
+  303  sudo chown -R :developers .
+  304  sudo chmod -R 2774 .
+  305  mkdir shared_dir
+  306  chmod +t -R shared_dir/
+  307  touch .file1
+  308  ls
+  309  touch .file1
+  310  ls
+  311  touch .file11
+  312  ls
+  313  mkdir restricted-dir
+  314  ls
+  315  sudo chmod 000 -R restricted-dir
+  316  ls
+  317  cat > script1.sh
+  318  chmod +x script1.sh
+  319  ls -l
+  320  ./script.sh
+  321  ./script1.sh
+  322  nano script1.sh
+  323  ls -l
+  324  ./script1.sh
+  325  cat > age_chek
+  326  cat > age_check
+  327  ./age_check.sh
+  328  nano age_check.sh
+  329  bash age_check 10
+  330  bash age_check 18
+  331  bash age_check 20
+  332  nano burger_cost
+  333  bash burger_cost 10
+  334  bash burger_cost 50
+  335  bash burger_cost 100
+  336  bash burger_cost asdfas
+  337  nano burger_cost
+  338  bash burger_cost
+  339  bash burger_cost asdfas
+  340  butckikh > user3.sh
+  341  cat > user3.sh
+  342  nano user3.sh
+  343  cat user3.sh
+  344  bash user3.sh
+  345  cat > print
+  346  cat > print.sh
+  347  cat > print100
+  348  cat > print100.ch
+  349  cat > print100.sh
+  350  nano print.sh
+  351  bash user3.sh
+  352  bash print.sh
+  353  nano test.txt
+  354  bash test.txt
+  355  cat */10  * * * * cat /home/student/test.txt > /home/student/test.txt.bak
+  356  exit
+  357  history

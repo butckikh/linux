@@ -1,0 +1,15 @@
+398  history
+  399  curl -fsSL https://nginx.org/keys/nginx_signing.key | sudo apt-key add -
+  400  sudo apt update
+  401  sudo apt install -y nginx
+  402  sudo dpkg -r nginx
+419  snap search postman
+  420  sudo snap install postman
+  421  snap help refresh
+  422  postman
+  423  DISABLE_WAYLAND=1 postman
+  424  $snap run postman
+  425  snap refresh --channel=v7/stable postman
+  426  sudo snap refresh --channel=v7/stable postman
+  427  postman
+  428  history

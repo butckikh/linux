@@ -1,0 +1,686 @@
+butckikh@butckikh-VirtualBox:~/pop1$ history
+    1  sudo
+    2  <pre>To run a command as administrator (user &quot;root&quot;), use &quot;sudo &lt;command&gt;&quot;.
+    3  See &quot;man sudo_root&quot; for details.; <font color="#26A269"><b>butckikh@butckikh-VirtualBox</b></font>:<font color="#12488B"><b>~</b></font>$ sudo
+    4  usage: sudo -h | -K | -k | -V
+    5  usage: sudo -v [-ABknS] [-g group] [-h host] [-p prompt] [-u user]
+    6  usage: sudo -l [-ABknS] [-g group] [-h host] [-p prompt] [-U user] [-u user]
+    7  usage: sudo [-ABbEHknPS] [-r role] [-t type] [-C num] [-D directory] [-g
+    8  usage: sudo -e [-ABknS] [-r role] [-t type] [-C num] [-D directory] [-g group]
+    9  <font color="#26A269"><b>butckikh@butckikh-VirtualBox</b></font>:<font color="#12488B"><b>~</b></font>$ 
+   10  </pre>
+   11  +clipboard
+   12  sudo apt apdate
+   13  sudo apt update
+   14  killall VBoxClient
+   15  VBoxClient-all
+   16  butckikh@butckikh-VirtualBox:~$ sudo
+   17  usage: sudo -h | -K | -k | -V
+   18  usage: sudo -v [-ABknS] [-g group] [-h host] [-p prompt] [-u user]
+   19  usage: sudo -l [-ABknS] [-g group] [-h host] [-p prompt] [-U user] [-u user]
+   20  usage: sudo [-ABbEHknPS] [-r role] [-t type] [-C num] [-D directory] [-g
+   21  usage: sudo -e [-ABknS] [-r role] [-t type] [-C num] [-D directory] [-g group]
+   22  sudo apt install openssh-server -y
+   23  reboot
+   24  sudo apt-get update
+   25  sudo apt-get install virtual-guest-x11
+   26  sudo VBoxClient --clipboard
+   27  sudo dpkg --configure -a
+   28  ps aux | grep -i apt
+   29  unalias grep
+   30  grep --color=never
+   31  grep --help
+   32  sudo killall apt apt-get
+   33  killall VBoxClient 
+   34  killall VBoxClient
+   35  VBoxClient
+   36  sudo apt install virtualbox-guest-x11
+   37  reboot
+   38  sudo apt update
+   39  apt list 
+   40  sudo apt install perl make gcc -y
+   41  sudo apt install openssh-server -y
+   42  sudo apt update && sudo apt upgrade -y
+   43  reboot
+   44  service ssh status
+   45  ip a
+   46  ssh butckikh-VirtualBox@10.0.2.255
+   47  ssh butckikh-VirtualBox@10.0.2.15
+   48  ssh-keygen -R
+   49  ip a
+   50  ssh butckikh-VirtualBox@127.0.0.1
+   51  ssh butckikh@127.0.0.1
+   52  ip a
+   53  ssh butckikh@10.0.2.15
+   54  ssh-keygen -R butckikh
+   55  ssh butckikh-VirtualBox@10.0.2.15
+   56  ssh-keygen -R10.0.2.15
+   57  ssh-keygen -R 10.0.2.15
+   58  exit
+   59  mkdir
+   60  exit
+   61  apt update
+   62  sudo apt update
+   63  sudo useradd -m -s /bin/bash user1
+   64  ls /home
+   65  sudo passwd user1
+   66  history
+   67  su user1
+   68  useradd -d
+   69  useradd -D
+   70  sudo userdel  user1
+   71  ls /home
+   72  sudo userdel user1
+   73  ls /home
+   74  sudo userdel user1
+   75  sudo userdel user1 -fr
+   76  ls /home
+   77  sudo userdel user1 -fr
+   78  cd /home
+   79  sudo userdel user1 -fr
+   80  ls
+   81  sudo userdel user1 -r
+   82  cd
+   83  whatis userdel
+   84  userdel
+   85  sudo userdel user1 -f
+   86  sudo userdel user1 -Z
+   87  sudo userdel user1 -f
+   88  ls
+   89  ll
+   90  cd /home
+   91  ls
+   92  sudo userdel user1 -f
+   93  sudo passwd user2
+   94  sudo useradd -m -s/bin/bash user2
+   95  ls
+   96  su user2
+   97  exit
+   98  taill
+   99  tail
+  100  echo 123 > 123
+  101  ls
+  102  cd lesson4
+  103  ls
+  104  echo 123 > 123
+  105  ls
+  106  rm ./*
+  107  echo 123 > 123
+  108  cat 123
+  109  rm 123
+  110  ls 
+  111  cat /etc/
+  112  cat /etc/ 2> cat_etc
+  113  ls
+  114  cat cat_etc
+  115  ls -la
+  116  cd ..
+  117  ls -la
+  118  ls -la | cut -d " " -f 1
+  119  ls -la | cut -d " " -f 1 | grep -v total
+  120  ls -la | cut -d " " -f 1 | grep -v total | sort
+  121  ls -la | cut -d " " -f 1 | grep -v total | sort|uniq
+  122  cd
+  123  ssh-keygen
+  124  cd ~/.ssh/
+  125  ls
+  126  cp id_rsa.pub authorized_keys
+  127  pwd
+  128  exit
+  129  echo > file1
+  130  ll
+  131  rm *
+  132  mkdir p1
+  133  ll
+  134  cd p1
+  135  echo > file1
+  136  cat /etc/* 2>errors
+  137  ls -l | cut -b -10 | sort | uniq
+  138  ls -l | cut -f 1 -d ' ' | sort -u
+  139  ls -l | awk '{print $1}' | sort | uniq
+  140  ssh student@192.168.56.107
+  141  exit
+  142  cd p1
+  143  echo > file1
+  144  ll
+  145  cat /etc/* 2>errors
+  146  ls -l | cut -b -10 | sort | uniq
+  147  ls -l | cut -f 1 -d ' ' | sort -u
+  148  ls -l | awk '{print $1}' | sort | uniq
+  149  history
+  150  exit
+  151  history
+  152  clear
+  153  history
+  154  rm *
+  155  mkdir p1
+  156  ll
+  157  cd p1
+  158  /etc/ssh/sshd_config
+  159  ..
+  160  ls
+  161  ../
+  162  /etc/ssh/sshd_config
+  163  sudo nano /etc/ssh/sshd_config
+  164  systemctl restart sshd
+  165  systemctl reload sshd
+  166  cat > f1
+  167  clear
+  168  echo > file1
+  169  ll
+  170  rm*
+  171  rm *
+  172  mkdir pop1
+  173  cd pop1
+  174  echo > file1
+  175  cat /etc/* 2>errors
+  176  history
+butckikh@butckikh-VirtualBox:~/pop1$ ls -l | cut -b -10 | sort | uniq
+-rw-rw-r--
+итого
+butckikh@butckikh-VirtualBox:~/pop1$ ls -l | cut -f 1 -d ' ' | sort -u
+-rw-rw-r--
+итого
+butckikh@butckikh-VirtualBox:~/pop1$ ls -l | awk '{print $1}' | sort | uniq
+-rw-rw-r--
+итого
+butckikh@butckikh-VirtualBox:~/pop1$ mc
+
+butckikh@butckikh-VirtualBox:~/pop1$ tree -L 1 -d /
+/
+├── bin -> usr/bin
+├── boot
+├── cdrom
+├── dev
+├── etc
+├── home
+├── lib -> usr/lib
+├── lib32 -> usr/lib32
+├── lib64 -> usr/lib64
+├── libx32 -> usr/libx32
+├── lost+found
+├── media
+├── mnt
+├── opt
+├── proc
+├── root
+├── run
+├── sbin -> usr/sbin
+├── snap
+├── srv
+├── sys
+├── tmp
+├── usr
+└── var
+
+24 directories
+butckikh@butckikh-VirtualBox:~/pop1$ df
+Файл.система   1K-блоков Использовано Доступно Использовано% Cмонтировано в
+tmpfs             245252         1764   243488            1% /run
+/dev/sda3       18553784     12787652  4798268           73% /
+tmpfs            1226252            0  1226252            0% /dev/shm
+tmpfs               5120            4     5116            1% /run/lock
+/dev/sda2         524252         5364   518888            2% /boot/efi
+tmpfs             245248         4708   240540            2% /run/user/1000
+butckikh@butckikh-VirtualBox:~/pop1$ df -h1
+df: неверный ключ — «1»
+По команде «df --help» можно получить дополнительную информацию.
+butckikh@butckikh-VirtualBox:~/pop1$ df -hi
+Файл.система   Iнодов IИспользовано IСвободно IИспользовано% Cмонтировано в
+tmpfs            300K           976      299K             1% /run
+/dev/sda3        1,2M          229K      938K            20% /
+tmpfs            300K             1      300K             1% /dev/shm
+tmpfs            300K             4      300K             1% /run/lock
+/dev/sda2           0             0         0              - /boot/efi
+tmpfs             60K           147       60K             1% /run/user/1000
+butckikh@butckikh-VirtualBox:~/pop1$ ls -li
+итого 12
+785228 -rw-rw-r-- 1 butckikh butckikh 5652 ноя 15 21:53 errors
+785224 -rw-rw-r-- 1 butckikh butckikh    1 ноя 15 21:52 file1
+butckikh@butckikh-VirtualBox:~/pop1$ echo hi all > original_file
+butckikh@butckikh-VirtualBox:~/pop1$ ln original_file hardlink
+butckikh@butckikh-VirtualBox:~/pop1$ ll
+итого 28
+drwxrwxr-x  2 butckikh butckikh 4096 ноя 15 21:59 ./
+drwxr-x--- 25 butckikh butckikh 4096 ноя 15 21:52 ../
+-rw-rw-r--  1 butckikh butckikh 5652 ноя 15 21:53 errors
+-rw-rw-r--  1 butckikh butckikh    1 ноя 15 21:52 file1
+-rw-rw-r--  2 butckikh butckikh    7 ноя 15 21:58 hardlink
+-rw-rw-r--  2 butckikh butckikh    7 ноя 15 21:58 original_file
+butckikh@butckikh-VirtualBox:~/pop1$ ln -s original_file softlink
+butckikh@butckikh-VirtualBox:~/pop1$ ll
+итого 28
+drwxrwxr-x  2 butckikh butckikh 4096 ноя 15 21:59 ./
+drwxr-x--- 25 butckikh butckikh 4096 ноя 15 21:52 ../
+-rw-rw-r--  1 butckikh butckikh 5652 ноя 15 21:53 errors
+-rw-rw-r--  1 butckikh butckikh    1 ноя 15 21:52 file1
+-rw-rw-r--  2 butckikh butckikh    7 ноя 15 21:58 hardlink
+-rw-rw-r--  2 butckikh butckikh    7 ноя 15 21:58 original_file
+lrwxrwxrwx  1 butckikh butckikh   13 ноя 15 21:59 softlink -> original_file
+butckikh@butckikh-VirtualBox:~/pop1$ chmod go-rw header.txt
+chmod: невозможно получить доступ к 'header.txt': Нет такого файла или каталога
+butckikh@butckikh-VirtualBox:~/pop1$ chmod o+w header.txt
+chmod: невозможно получить доступ к 'header.txt': Нет такого файла или каталога
+butckikh@butckikh-VirtualBox:~/pop1$ touch header.txt
+butckikh@butckikh-VirtualBox:~/pop1$ ll
+итого 28
+drwxrwxr-x  2 butckikh butckikh 4096 ноя 15 22:01 ./
+drwxr-x--- 25 butckikh butckikh 4096 ноя 15 21:52 ../
+-rw-rw-r--  1 butckikh butckikh 5652 ноя 15 21:53 errors
+-rw-rw-r--  1 butckikh butckikh    1 ноя 15 21:52 file1
+-rw-rw-r--  2 butckikh butckikh    7 ноя 15 21:58 hardlink
+-rw-rw-r--  1 butckikh butckikh    0 ноя 15 22:01 header.txt
+-rw-rw-r--  2 butckikh butckikh    7 ноя 15 21:58 original_file
+lrwxrwxrwx  1 butckikh butckikh   13 ноя 15 21:59 softlink -> original_file
+butckikh@butckikh-VirtualBox:~/pop1$ chmod o+w header.txt
+butckikh@butckikh-VirtualBox:~/pop1$ ll
+итого 28
+drwxrwxr-x  2 butckikh butckikh 4096 ноя 15 22:01 ./
+drwxr-x--- 25 butckikh butckikh 4096 ноя 15 21:52 ../
+-rw-rw-r--  1 butckikh butckikh 5652 ноя 15 21:53 errors
+-rw-rw-r--  1 butckikh butckikh    1 ноя 15 21:52 file1
+-rw-rw-r--  2 butckikh butckikh    7 ноя 15 21:58 hardlink
+-rw-rw-rw-  1 butckikh butckikh    0 ноя 15 22:01 header.txt
+-rw-rw-r--  2 butckikh butckikh    7 ноя 15 21:58 original_file
+lrwxrwxrwx  1 butckikh butckikh   13 ноя 15 21:59 softlink -> original_file
+butckikh@butckikh-VirtualBox:~/pop1$ chmod go-rw header.txt
+butckikh@butckikh-VirtualBox:~/pop1$ chmod 777 -R ~/lesson3
+chmod: невозможно получить доступ к '/home/butckikh/lesson3': Нет такого файла или каталога
+butckikh@butckikh-VirtualBox:~/pop1$ touch lesson3
+butckikh@butckikh-VirtualBox:~/pop1$ ll
+итого 28
+drwxrwxr-x  2 butckikh butckikh 4096 ноя 15 22:03 ./
+drwxr-x--- 25 butckikh butckikh 4096 ноя 15 21:52 ../
+-rw-rw-r--  1 butckikh butckikh 5652 ноя 15 21:53 errors
+-rw-rw-r--  1 butckikh butckikh    1 ноя 15 21:52 file1
+-rw-rw-r--  2 butckikh butckikh    7 ноя 15 21:58 hardlink
+-rw-------  1 butckikh butckikh    0 ноя 15 22:01 header.txt
+-rw-rw-r--  1 butckikh butckikh    0 ноя 15 22:03 lesson3
+-rw-rw-r--  2 butckikh butckikh    7 ноя 15 21:58 original_file
+lrwxrwxrwx  1 butckikh butckikh   13 ноя 15 21:59 softlink -> original_file
+butckikh@butckikh-VirtualBox:~/pop1$ chmod 777 -R ~/lesson3
+chmod: невозможно получить доступ к '/home/butckikh/lesson3': Нет такого файла или каталога
+butckikh@butckikh-VirtualBox:~/pop1$ chmod u+s filename
+chmod: невозможно получить доступ к 'filename': Нет такого файла или каталога
+butckikh@butckikh-VirtualBox:~/pop1$ sudo chmod u+s filename
+[sudo] пароль для butckikh: 
+chmod: невозможно получить доступ к 'filename': Нет такого файла или каталога
+butckikh@butckikh-VirtualBox:~/pop1$ chmod 777 -R ~/pop1
+butckikh@butckikh-VirtualBox:~/pop1$ sudo chown user1 header.txt
+chown: неверный пользователь: «user1»
+butckikh@butckikh-VirtualBox:~/pop1$ sudo chown user1 header.txt
+chown: неверный пользователь: «user1»
+butckikh@butckikh-VirtualBox:~/pop1$ sudo chown user header.txt
+chown: неверный пользователь: «user»
+butckikh@butckikh-VirtualBox:~/pop1$ sudo chown butckikh header.txt
+butckikh@butckikh-VirtualBox:~/pop1$ sudo chown butckikh1 header.txt
+chown: неверный пользователь: «butckikh1»
+butckikh@butckikh-VirtualBox:~/pop1$ sudo adduser1
+sudo: adduser1: команда не найдена
+butckikh@butckikh-VirtualBox:~/pop1$ sudo add user1
+sudo: add: команда не найдена
+butckikh@butckikh-VirtualBox:~/pop1$ sudo adduser user1
+Добавляется пользователь «user1» ...
+Добавляется новая группа «user1» (1003) ...
+Добавляется новый пользователь «user1» (1002) в группу «user1» ...
+Создаётся домашний каталог «/home/user1» ...
+Копирование файлов из «/etc/skel» ...
+Новый пароль: 
+НЕУДАЧНЫЙ ПАРОЛЬ: Пароль должен содержать не менее 8 символов
+Повторите ввод нового пароля: 
+Извините, но пароли не совпадают.
+Новый пароль: 
+Повторите ввод нового пароля: 
+passwd: пароль успешно обновлён
+Изменение информации о пользователе user1
+Введите новое значение или нажмите ENTER для выбора значения по умолчанию
+	Полное имя []: 
+	Номер комнаты []: 
+	Рабочий телефон []: 
+	Домашний телефон []: 
+	Другое []: 
+Данная информация корректна? [Y/n] y
+butckikh@butckikh-VirtualBox:~/pop1$ sudo chown user1 header.txt
+butckikh@butckikh-VirtualBox:~/pop1$ ll
+итого 28
+drwxrwxrwx  2 butckikh butckikh 4096 ноя 15 22:03 ./
+drwxr-x--- 25 butckikh butckikh 4096 ноя 15 21:52 ../
+-rwxrwxrwx  1 butckikh butckikh 5652 ноя 15 21:53 errors*
+-rwxrwxrwx  1 butckikh butckikh    1 ноя 15 21:52 file1*
+-rwxrwxrwx  2 butckikh butckikh    7 ноя 15 21:58 hardlink*
+-rwxrwxrwx  1 user1    butckikh    0 ноя 15 22:01 header.txt*
+-rwxrwxrwx  1 butckikh butckikh    0 ноя 15 22:03 lesson3*
+-rwxrwxrwx  2 butckikh butckikh    7 ноя 15 21:58 original_file*
+lrwxrwxrwx  1 butckikh butckikh   13 ноя 15 21:59 softlink -> original_file*
+butckikh@butckikh-VirtualBox:~/pop1$ ls
+errors  file1  hardlink  header.txt  lesson3  original_file  softlink
+butckikh@butckikh-VirtualBox:~/pop1$ chmod +t filename
+chmod: невозможно получить доступ к 'filename': Нет такого файла или каталога
+butckikh@butckikh-VirtualBox:~/pop1$ touch filename
+butckikh@butckikh-VirtualBox:~/pop1$ ll
+итого 28
+drwxrwxrwx  2 butckikh butckikh 4096 ноя 15 22:23 ./
+drwxr-x--- 25 butckikh butckikh 4096 ноя 15 21:52 ../
+-rwxrwxrwx  1 butckikh butckikh 5652 ноя 15 21:53 errors*
+-rwxrwxrwx  1 butckikh butckikh    1 ноя 15 21:52 file1*
+-rw-rw-r--  1 butckikh butckikh    0 ноя 15 22:23 filename
+-rwxrwxrwx  2 butckikh butckikh    7 ноя 15 21:58 hardlink*
+-rwxrwxrwx  1 user1    butckikh    0 ноя 15 22:01 header.txt*
+-rwxrwxrwx  1 butckikh butckikh    0 ноя 15 22:03 lesson3*
+-rwxrwxrwx  2 butckikh butckikh    7 ноя 15 21:58 original_file*
+lrwxrwxrwx  1 butckikh butckikh   13 ноя 15 21:59 softlink -> original_file*
+butckikh@butckikh-VirtualBox:~/pop1$ chmod +t filename
+butckikh@butckikh-VirtualBox:~/pop1$ chmod u+s filename
+butckikh@butckikh-VirtualBox:~/pop1$ ls
+errors  file1  filename  hardlink  header.txt  lesson3  original_file  softlink
+butckikh@butckikh-VirtualBox:~/pop1$ chmod u-s filename
+butckikh@butckikh-VirtualBox:~/pop1$ ls
+errors  file1  filename  hardlink  header.txt  lesson3  original_file  softlink
+butckikh@butckikh-VirtualBox:~/pop1$ chmod g+s filename
+butckikh@butckikh-VirtualBox:~/pop1$ ls
+errors  file1  filename  hardlink  header.txt  lesson3  original_file  softlink
+butckikh@butckikh-VirtualBox:~/pop1$ chmod g-s filename
+butckikh@butckikh-VirtualBox:~/pop1$ ls
+errors  file1  filename  hardlink  header.txt  lesson3  original_file  softlink
+butckikh@butckikh-VirtualBox:~/pop1$ sudo chown user2 f1
+chown: неверный пользователь: «user2»
+butckikh@butckikh-VirtualBox:~/pop1$ sudo adduser user2
+Добавляется пользователь «user2» ...
+Добавляется новая группа «user2» (1004) ...
+Добавляется новый пользователь «user2» (1003) в группу «user2» ...
+Домашний каталог «/home/user2» уже существует. Не копируется из «/etc/skel».
+adduser: Внимание: данный домашний каталог `/home/user2' не принадлежит пользователю, которого вы сейчас создаете
+Новый пароль: 
+Повторите ввод нового пароля: 
+passwd: пароль успешно обновлён
+Изменение информации о пользователе user2
+Введите новое значение или нажмите ENTER для выбора значения по умолчанию
+	Полное имя []: 
+	Номер комнаты []: 
+	Рабочий телефон []: 
+	Домашний телефон []: 
+	Другое []: 
+Данная информация корректна? [Y/n] y
+butckikh@butckikh-VirtualBox:~/pop1$ sudo chown user2 f1
+chown: невозможно получить доступ к 'f1': Нет такого файла или каталога
+butckikh@butckikh-VirtualBox:~/pop1$ sudo chown user2 pop1
+chown: невозможно получить доступ к 'pop1': Нет такого файла или каталога
+butckikh@butckikh-VirtualBox:~/pop1$ ll
+итого 28
+drwxrwxrwx  2 butckikh butckikh 4096 ноя 15 22:23 ./
+drwxr-x--- 25 butckikh butckikh 4096 ноя 15 21:52 ../
+-rwxrwxrwx  1 butckikh butckikh 5652 ноя 15 21:53 errors*
+-rwxrwxrwx  1 butckikh butckikh    1 ноя 15 21:52 file1*
+-rw-rw-r-T  1 butckikh butckikh    0 ноя 15 22:23 filename
+-rwxrwxrwx  2 butckikh butckikh    7 ноя 15 21:58 hardlink*
+-rwxrwxrwx  1 user1    butckikh    0 ноя 15 22:01 header.txt*
+-rwxrwxrwx  1 butckikh butckikh    0 ноя 15 22:03 lesson3*
+-rwxrwxrwx  2 butckikh butckikh    7 ноя 15 21:58 original_file*
+lrwxrwxrwx  1 butckikh butckikh   13 ноя 15 21:59 softlink -> original_file*
+butckikh@butckikh-VirtualBox:~/pop1$ touch f1
+butckikh@butckikh-VirtualBox:~/pop1$ sudo chown user2 f1
+butckikh@butckikh-VirtualBox:~/pop1$ ls
+errors  file1     hardlink    lesson3        softlink
+f1      filename  header.txt  original_file
+butckikh@butckikh-VirtualBox:~/pop1$ sudo chown :dev_team f1
+butckikh@butckikh-VirtualBox:~/pop1$ sudo chown butckikh:butckikh -R
+chown: пропущен операнд после «butckikh:butckikh»
+По команде «chown --help» можно получить дополнительную информацию.
+butckikh@butckikh-VirtualBox:~/pop1$ sudo chown butckikh:butckikh -R .
+butckikh@butckikh-VirtualBox:~/pop1$ ls
+errors  file1     hardlink    lesson3        softlink
+f1      filename  header.txt  original_file
+butckikh@butckikh-VirtualBox:~/pop1$ ll
+итого 28
+drwxrwxrwx  2 butckikh butckikh 4096 ноя 15 22:26 ./
+drwxr-x--- 25 butckikh butckikh 4096 ноя 15 21:52 ../
+-rwxrwxrwx  1 butckikh butckikh 5652 ноя 15 21:53 errors*
+-rw-rw-r--  1 butckikh butckikh    0 ноя 15 22:26 f1
+-rwxrwxrwx  1 butckikh butckikh    1 ноя 15 21:52 file1*
+-rw-rw-r-T  1 butckikh butckikh    0 ноя 15 22:23 filename
+-rwxrwxrwx  2 butckikh butckikh    7 ноя 15 21:58 hardlink*
+-rwxrwxrwx  1 butckikh butckikh    0 ноя 15 22:01 header.txt*
+-rwxrwxrwx  1 butckikh butckikh    0 ноя 15 22:03 lesson3*
+-rwxrwxrwx  2 butckikh butckikh    7 ноя 15 21:58 original_file*
+lrwxrwxrwx  1 butckikh butckikh   13 ноя 15 21:59 softlink -> original_file*
+butckikh@butckikh-VirtualBox:~/pop1$ history
+    1  sudo
+    2  <pre>To run a command as administrator (user &quot;root&quot;), use &quot;sudo &lt;command&gt;&quot;.
+    3  See &quot;man sudo_root&quot; for details.; <font color="#26A269"><b>butckikh@butckikh-VirtualBox</b></font>:<font color="#12488B"><b>~</b></font>$ sudo
+    4  usage: sudo -h | -K | -k | -V
+    5  usage: sudo -v [-ABknS] [-g group] [-h host] [-p prompt] [-u user]
+    6  usage: sudo -l [-ABknS] [-g group] [-h host] [-p prompt] [-U user] [-u user]
+    7  usage: sudo [-ABbEHknPS] [-r role] [-t type] [-C num] [-D directory] [-g
+    8  usage: sudo -e [-ABknS] [-r role] [-t type] [-C num] [-D directory] [-g group]
+    9  <font color="#26A269"><b>butckikh@butckikh-VirtualBox</b></font>:<font color="#12488B"><b>~</b></font>$ 
+   10  </pre>
+   11  +clipboard
+   12  sudo apt apdate
+   13  sudo apt update
+   14  killall VBoxClient
+   15  VBoxClient-all
+   16  butckikh@butckikh-VirtualBox:~$ sudo
+   17  usage: sudo -h | -K | -k | -V
+   18  usage: sudo -v [-ABknS] [-g group] [-h host] [-p prompt] [-u user]
+   19  usage: sudo -l [-ABknS] [-g group] [-h host] [-p prompt] [-U user] [-u user]
+   20  usage: sudo [-ABbEHknPS] [-r role] [-t type] [-C num] [-D directory] [-g
+   21  usage: sudo -e [-ABknS] [-r role] [-t type] [-C num] [-D directory] [-g group]
+   22  sudo apt install openssh-server -y
+   23  reboot
+   24  sudo apt-get update
+   25  sudo apt-get install virtual-guest-x11
+   26  sudo VBoxClient --clipboard
+   27  sudo dpkg --configure -a
+   28  ps aux | grep -i apt
+   29  unalias grep
+   30  grep --color=never
+   31  grep --help
+   32  sudo killall apt apt-get
+   33  killall VBoxClient 
+   34  killall VBoxClient
+   35  VBoxClient
+   36  sudo apt install virtualbox-guest-x11
+   37  reboot
+   38  sudo apt update
+   39  apt list 
+   40  sudo apt install perl make gcc -y
+   41  sudo apt install openssh-server -y
+   42  sudo apt update && sudo apt upgrade -y
+   43  reboot
+   44  service ssh status
+   45  ip a
+   46  ssh butckikh-VirtualBox@10.0.2.255
+   47  ssh butckikh-VirtualBox@10.0.2.15
+   48  ssh-keygen -R
+   49  ip a
+   50  ssh butckikh-VirtualBox@127.0.0.1
+   51  ssh butckikh@127.0.0.1
+   52  ip a
+   53  ssh butckikh@10.0.2.15
+   54  ssh-keygen -R butckikh
+   55  ssh butckikh-VirtualBox@10.0.2.15
+   56  ssh-keygen -R10.0.2.15
+   57  ssh-keygen -R 10.0.2.15
+   58  exit
+   59  mkdir
+   60  exit
+   61  apt update
+   62  sudo apt update
+   63  sudo useradd -m -s /bin/bash user1
+   64  ls /home
+   65  sudo passwd user1
+   66  history
+   67  su user1
+   68  useradd -d
+   69  useradd -D
+   70  sudo userdel  user1
+   71  ls /home
+   72  sudo userdel user1
+   73  ls /home
+   74  sudo userdel user1
+   75  sudo userdel user1 -fr
+   76  ls /home
+   77  sudo userdel user1 -fr
+   78  cd /home
+   79  sudo userdel user1 -fr
+   80  ls
+   81  sudo userdel user1 -r
+   82  cd
+   83  whatis userdel
+   84  userdel
+   85  sudo userdel user1 -f
+   86  sudo userdel user1 -Z
+   87  sudo userdel user1 -f
+   88  ls
+   89  ll
+   90  cd /home
+   91  ls
+   92  sudo userdel user1 -f
+   93  sudo passwd user2
+   94  sudo useradd -m -s/bin/bash user2
+   95  ls
+   96  su user2
+   97  exit
+   98  taill
+   99  tail
+  100  echo 123 > 123
+  101  ls
+  102  cd lesson4
+  103  ls
+  104  echo 123 > 123
+  105  ls
+  106  rm ./*
+  107  echo 123 > 123
+  108  cat 123
+  109  rm 123
+  110  ls 
+  111  cat /etc/
+  112  cat /etc/ 2> cat_etc
+  113  ls
+  114  cat cat_etc
+  115  ls -la
+  116  cd ..
+  117  ls -la
+  118  ls -la | cut -d " " -f 1
+  119  ls -la | cut -d " " -f 1 | grep -v total
+  120  ls -la | cut -d " " -f 1 | grep -v total | sort
+  121  ls -la | cut -d " " -f 1 | grep -v total | sort|uniq
+  122  cd
+  123  ssh-keygen
+  124  cd ~/.ssh/
+  125  ls
+  126  cp id_rsa.pub authorized_keys
+  127  pwd
+  128  exit
+  129  echo > file1
+  130  ll
+  131  rm *
+  132  mkdir p1
+  133  ll
+  134  cd p1
+  135  echo > file1
+  136  cat /etc/* 2>errors
+  137  ls -l | cut -b -10 | sort | uniq
+  138  ls -l | cut -f 1 -d ' ' | sort -u
+  139  ls -l | awk '{print $1}' | sort | uniq
+  140  ssh student@192.168.56.107
+  141  exit
+  142  cd p1
+  143  echo > file1
+  144  ll
+  145  cat /etc/* 2>errors
+  146  ls -l | cut -b -10 | sort | uniq
+  147  ls -l | cut -f 1 -d ' ' | sort -u
+  148  ls -l | awk '{print $1}' | sort | uniq
+  149  history
+  150  exit
+  151  history
+  152  clear
+  153  history
+  154  rm *
+  155  mkdir p1
+  156  ll
+  157  cd p1
+  158  /etc/ssh/sshd_config
+  159  ..
+  160  ls
+  161  ../
+  162  /etc/ssh/sshd_config
+  163  sudo nano /etc/ssh/sshd_config
+  164  systemctl restart sshd
+  165  systemctl reload sshd
+  166  cat > f1
+  167  clear
+  168  echo > file1
+  169  ll
+  170  rm*
+  171  rm *
+  172  mkdir pop1
+  173  cd pop1
+  174  echo > file1
+  175  cat /etc/* 2>errors
+  176  history
+  177  ls -l | cut -b -10 | sort | uniq
+  178  ls -l | cut -f 1 -d ' ' | sort -u
+  179  ls -l | awk '{print $1}' | sort | uniq
+  180  mc
+  181  tree -L 1 -d /
+  182  df
+  183  df -h1
+  184  df -hi
+  185  ls -li
+  186  echo hi all > original_file
+  187  ln original_file hardlink
+  188  ll
+  189  ln -s original_file softlink
+  190  ll
+  191  chmod go-rw header.txt
+  192  chmod o+w header.txt
+  193  touch header.txt
+  194  ll
+  195  chmod o+w header.txt
+  196  ll
+  197  chmod go-rw header.txt
+  198  chmod 777 -R ~/lesson3
+  199  touch lesson3
+  200  ll
+  201  chmod 777 -R ~/lesson3
+  202  chmod u+s filename
+  203  sudo chmod u+s filename
+  204  chmod 777 -R ~/pop1
+  205  sudo chown user1 header.txt
+  206  sudo chown user header.txt
+  207  sudo chown butckikh header.txt
+  208  sudo chown butckikh1 header.txt
+  209  sudo adduser1
+  210  sudo add user1
+  211  sudo adduser user1
+  212  sudo chown user1 header.txt
+  213  ll
+  214  ls
+  215  chmod +t filename
+  216  touch filename
+  217  ll
+  218  chmod +t filename
+  219  chmod u+s filename
+  220  ls
+  221  chmod u-s filename
+  222  ls
+  223  chmod g+s filename
+  224  ls
+  225  chmod g-s filename
+  226  ls
+  227  sudo chown user2 f1
+  228  sudo adduser user2
+  229  sudo chown user2 f1
+  230  sudo chown user2 pop1
+  231  ll
+  232  touch f1
+  233  sudo chown user2 f1
+  234  ls
+  235  sudo chown :dev_team f1
+  236  sudo chown butckikh:butckikh -R
+  237  sudo chown butckikh:butckikh -R .
+  238  ls
+  239  ll
+  240  history

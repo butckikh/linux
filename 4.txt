@@ -1,0 +1,143 @@
+butckikh@butckikh-VirtualBox:~/lesson4$ history
+    1  sudo
+    2  <pre>To run a command as administrator (user &quot;root&quot;), use &quot;sudo &lt;command&gt;&quot;.
+    3  See &quot;man sudo_root&quot; for details.; <font color="#26A269"><b>butckikh@butckikh-VirtualBox</b></font>:<font color="#12488B"><b>~</b></font>$ sudo
+    4  usage: sudo -h | -K | -k | -V
+    5  usage: sudo -v [-ABknS] [-g group] [-h host] [-p prompt] [-u user]
+    6  usage: sudo -l [-ABknS] [-g group] [-h host] [-p prompt] [-U user] [-u user]
+    7  usage: sudo [-ABbEHknPS] [-r role] [-t type] [-C num] [-D directory] [-g
+    8  usage: sudo -e [-ABknS] [-r role] [-t type] [-C num] [-D directory] [-g group]
+    9  <font color="#26A269"><b>butckikh@butckikh-VirtualBox</b></font>:<font color="#12488B"><b>~</b></font>$ 
+   10  </pre>
+   11  +clipboard
+   12  sudo apt apdate
+   13  sudo apt update
+   14  killall VBoxClient
+   15  VBoxClient-all
+   16  butckikh@butckikh-VirtualBox:~$ sudo
+   17  usage: sudo -h | -K | -k | -V
+   18  usage: sudo -v [-ABknS] [-g group] [-h host] [-p prompt] [-u user]
+   19  usage: sudo -l [-ABknS] [-g group] [-h host] [-p prompt] [-U user] [-u user]
+   20  usage: sudo [-ABbEHknPS] [-r role] [-t type] [-C num] [-D directory] [-g
+   21  usage: sudo -e [-ABknS] [-r role] [-t type] [-C num] [-D directory] [-g group]
+   22  sudo apt install openssh-server -y
+   23  reboot
+   24  sudo apt-get update
+   25  sudo apt-get install virtual-guest-x11
+   26  sudo VBoxClient --clipboard
+   27  sudo dpkg --configure -a
+   28  ps aux | grep -i apt
+   29  unalias grep
+   30  grep --color=never
+   31  grep --help
+   32  sudo killall apt apt-get
+   33  killall VBoxClient 
+   34  killall VBoxClient
+   35  VBoxClient
+   36  sudo apt install virtualbox-guest-x11
+   37  reboot
+   38  sudo apt update
+   39  apt list 
+   40  sudo apt install perl make gcc -y
+   41  sudo apt install openssh-server -y
+   42  sudo apt update && sudo apt upgrade -y
+   43  reboot
+   44  service ssh status
+   45  ip a
+   46  ssh butckikh-VirtualBox@10.0.2.255
+   47  ssh butckikh-VirtualBox@10.0.2.15
+   48  ssh-keygen -R
+   49  ip a
+   50  ssh butckikh-VirtualBox@127.0.0.1
+   51  ssh butckikh@127.0.0.1
+   52  ip a
+   53  ssh butckikh@10.0.2.15
+   54  ssh-keygen -R butckikh
+   55  ssh butckikh-VirtualBox@10.0.2.15
+   56  ssh-keygen -R10.0.2.15
+   57  ssh-keygen -R 10.0.2.15
+   58  exit
+   59  mkdir
+   60  exit
+   61  apt update
+   62  sudo apt update
+   63  sudo useradd -m -s /bin/bash user1
+   64  ls /home
+   65  sudo passwd user1
+   66  history
+   67  su user1
+   68  useradd -d
+   69  useradd -D
+   70  sudo userdel  user1
+   71  ls /home
+   72  sudo userdel user1
+   73  ls /home
+   74  sudo userdel user1
+   75  sudo userdel user1 -fr
+   76  ls /home
+   77  sudo userdel user1 -fr
+   78  cd /home
+   79  sudo userdel user1 -fr
+   80  ls
+   81  sudo userdel user1 -r
+   82  cd
+   83  whatis userdel
+   84  userdel
+   85  sudo userdel user1 -f
+   86  sudo userdel user1 -Z
+   87  sudo userdel user1 -f
+   88  ls
+   89  ll
+   90  cd /home
+   91  ls
+   92  sudo userdel user1 -f
+   93  sudo passwd user2
+   94  sudo useradd -m -s/bin/bash user2
+   95  ls
+   96  su user2
+   97  exit
+   98  taill
+   99  tail
+  100  echo 123 > 123
+  101  ls
+  102  cd lesson4
+  103  ls
+  104  echo 123 > 123
+  105  ls
+  106  rm ./*
+  107  echo 123 > 123
+  108  cat 123
+  109  rm 123
+  110  ls 
+  111  cat /etc/
+  112  cat /etc/ 2> cat_etc
+  113  ls
+  114  cat cat_etc
+  115  ls -la
+  116  cd ..
+  117  ls -la
+  118  ls -la | cut -d " " -f 1
+  119  ls -la | cut -d " " -f 1 | grep -v total
+  120  ls -la | cut -d " " -f 1 | grep -v total | sort
+  121  ls -la | cut -d " " -f 1 | grep -v total | sort|uniq
+  122  cd
+  123  ssh-keygen
+  124  cd ~/.ssh/
+  125  ls
+  126  cp id_rsa.pub authorized_keys
+  127  pwd
+  128  exit
+  129  sudo nano /etc/ssh/sshd_config
+  130  sudo systemctl restart sshd
+  131  sudo nano /etc/ssh/sshd_config
+  132  sudo systemctl restart sshd
+  133  sudo nano /etc/ssh/sshd_config
+  134  sudo systemctl reload sshd
+  135  cd lesson4
+  136  cat > cat_file
+  137  mc
+  138  ps -efl | grep mc
+  139  kill -9 4223
+  140  fg %1
+  141  history
+butckikh@butckikh-VirtualBox:~/lesson4$ 

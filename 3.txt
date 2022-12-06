@@ -1,0 +1,101 @@
+butckikh@butckikh-VirtualBox:~$ su user1
+Пароль: 
+bash: /home/user1/.bashrc: Отказано в доступе
+user1@butckikh-VirtualBox:/home/butckikh$ exit
+exit
+butckikh@butckikh-VirtualBox:~$ sudo passwd user1
+Новый пароль: 
+Повторите ввод нового пароля: 
+passwd: пароль успешно обновлён
+butckikh@butckikh-VirtualBox:~$ su user1
+Пароль: 
+bash: /home/user1/.bashrc: Отказано в доступе
+user1@butckikh-VirtualBox:/home/butckikh$ sudo su user1
+[sudo] пароль для user1: 
+user1 отсутствует в файле sudoers. Данное действие будет занесено в журнал.
+user1@butckikh-VirtualBox:/home/butckikh$ exit
+exit
+butckikh@butckikh-VirtualBox:~$ sudo useradd -m -s /bin/bash user1
+useradd: пользователь «user1» уже существует
+butckikh@butckikh-VirtualBox:~$ su user1
+Пароль: 
+bash: /home/user1/.bashrc: Отказано в доступе
+user1@butckikh-VirtualBox:/home/butckikh$ sudo su user1
+[sudo] пароль для user1: 
+user1 отсутствует в файле sudoers. Данное действие будет занесено в журнал.
+user1@butckikh-VirtualBox:/home/butckikh$ ls /home
+butckikh  user1  user100  user2
+user1@butckikh-VirtualBox:/home/butckikh$ userdel user1 -fr
+userdel: user user1 is currently used by process 4312
+userdel: Permission denied.
+userdel: не удалось заблокировать /etc/passwd; попробуйте ещё раз позже.
+user1@butckikh-VirtualBox:/home/butckikh$ userdel user1 -fr
+userdel: user user1 is currently used by process 4312
+userdel: Permission denied.
+userdel: не удалось заблокировать /etc/passwd; попробуйте ещё раз позже.
+user1@butckikh-VirtualBox:/home/butckikh$ sudo userdell user1 -fr
+[sudo] пароль для user1: 
+Попробуйте ещё раз.
+[sudo] пароль для user1: 
+user1 отсутствует в файле sudoers. Данное действие будет занесено в журнал.
+user1@butckikh-VirtualBox:/home/butckikh$ exit
+exit
+butckikh@butckikh-VirtualBox:~$ sudo userdell user1 -fr
+sudo: userdell: команда не найдена
+butckikh@butckikh-VirtualBox:~$ sudo userdel user1 -fr
+userdel: почтовый ящик user1 (/var/mail/user1) не найден
+butckikh@butckikh-VirtualBox:~$ ls
+ 02       lesson02      students_list.txt   Загрузки      Общедоступные
+ home     newfile.txt   Видео               Изображения  'Рабочий стол'
+ lesson   snap          Документы           Музыка        Шаблоны
+butckikh@butckikh-VirtualBox:~$ ls /home
+butckikh  user100  user2
+butckikh@butckikh-VirtualBox:~$ sudo userdel user100 -fr
+userdel: почтовый ящик user100 (/var/mail/user100) не найден
+butckikh@butckikh-VirtualBox:~$ ls /home
+butckikh  user2
+butckikh@butckikh-VirtualBox:~$ sudo userdel user2 -fr
+userdel: пользователь «user2» не существует
+butckikh@butckikh-VirtualBox:~$ ls /home
+butckikh  user2
+butckikh@butckikh-VirtualBox:~$ ls /home
+butckikh  user2
+butckikh@butckikh-VirtualBox:~$ sudo userdel user2 -fr
+userdel: пользователь «user2» не существует
+butckikh@butckikh-VirtualBox:~$ ls /home
+butckikh  user2
+butckikh@butckikh-VirtualBox:~$ sudo groupadd dev_team
+butckikh@butckikh-VirtualBox:~$ more /etc/group | grep dev
+plugdev:x:46:butckikh
+netdev:x:120:
+dev_team:x:1001:
+butckikh@butckikh-VirtualBox:~$ sudo usermod -G dev_team user2
+usermod: пользователь «user2» не существует
+butckikh@butckikh-VirtualBox:~$ sudo useradd -m -s /bin/bash user1
+butckikh@butckikh-VirtualBox:~$ sudo usermod -G dev_team user1
+butckikh@butckikh-VirtualBox:~$ ls
+ 02       lesson02      students_list.txt   Загрузки      Общедоступные
+ home     newfile.txt   Видео               Изображения  'Рабочий стол'
+ lesson   snap          Документы           Музыка        Шаблоны
+butckikh@butckikh-VirtualBox:~$ ls /home
+butckikh  user1  user2
+butckikh@butckikh-VirtualBox:~$ more /etc/group | grep dev
+plugdev:x:46:butckikh
+netdev:x:120:
+dev_team:x:1001:user1
+butckikh@butckikh-VirtualBox:~$ sudo userdel user1 -fr
+userdel: почтовый ящик user1 (/var/mail/user1) не найден
+butckikh@butckikh-VirtualBox:~$ more /etc/group | grep dev
+plugdev:x:46:butckikh
+netdev:x:120:
+dev_team:x:1001:
+butckikh@butckikh-VirtualBox:~$ sudo useradd -m -s /bin/bash user100
+butckikh@butckikh-VirtualBox:~$ sudo usermode -G sudo user100
+sudo: usermode: команда не найдена
+butckikh@butckikh-VirtualBox:~$ sudo usermod -G sudo user100
+butckikh@butckikh-VirtualBox:~$ sudo su
+root@butckikh-VirtualBox:/home/butckikh# whoami
+root
+root@butckikh-VirtualBox:/home/butckikh# exit
+exit
+butckikh@butckikh-VirtualBox:~$ 
